@@ -749,5 +749,21 @@ footer {
   font-family: "Times New Roman", Times, serif;
 }
 
+/* Poster Styling */
+.poster-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.poster-roll {
+  width: 100%;              /* take full width of container */
+  max-width: 900px;         /* don’t stretch too much on big screens */
+  height: auto;             /* keep aspect ratio */
+  border-radius: 15px;      /* rounded edges */
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+}
+
 
 
